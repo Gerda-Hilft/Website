@@ -1,23 +1,15 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, Calendar, Target } from "lucide-react";
-
-const teamMembers = [
-  "Rafael",
-  "Johann",
-  "Julius",
-  "Jonathan",
-  "Niclas",
-  "Adrian",
-];
+import { content } from "@/lib/content";
 
 const About = () => {
   return (
     <section id="about" className="py-20 px-4 lg:px-8">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Über uns</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{content.about.title}</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Wir sind eine engagierte Schülerfirma der Gerda-Taro-Schule
+            {content.about.subtitle}
           </p>
         </div>
 
@@ -27,8 +19,8 @@ const About = () => {
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <Calendar className="h-7 w-7 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Gegründet</h3>
-              <p className="text-muted-foreground">6. Januar 2025</p>
+              <h3 className="font-semibold text-lg mb-2">{content.about.stats.founded.label}</h3>
+              <p className="text-muted-foreground">{content.about.stats.founded.value}</p>
             </CardContent>
           </Card>
 
@@ -37,8 +29,8 @@ const About = () => {
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <Users className="h-7 w-7 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Team</h3>
-              <p className="text-muted-foreground">6 engagierte Mitglieder</p>
+              <h3 className="font-semibold text-lg mb-2">{content.about.stats.team.label}</h3>
+              <p className="text-muted-foreground">{content.about.stats.team.value}</p>
             </CardContent>
           </Card>
 
@@ -47,8 +39,8 @@ const About = () => {
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <Target className="h-7 w-7 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Mission</h3>
-              <p className="text-muted-foreground">IT-Support für alle</p>
+              <h3 className="font-semibold text-lg mb-2">{content.about.stats.mission.label}</h3>
+              <p className="text-muted-foreground">{content.about.stats.mission.value}</p>
             </CardContent>
           </Card>
         </div>
@@ -58,22 +50,16 @@ const About = () => {
             <Card className="border-border">
               <CardContent className="pt-6">
                 <p className="text-base leading-relaxed text-muted-foreground mb-6">
-                  Wir als Schülerfirma sind seit dem 6. Januar 2025 aktiv und
-                  bestehen im Moment aus 6 Mitgliedern. Wir haben es uns zur
-                  Aufgabe gemacht Lehrern, Schülern und Eltern bei allen
-                  möglichen technischen Problemen zu helfen.
+                  {content.about.description.paragraph1}
                 </p>
                 <p className="text-base leading-relaxed text-muted-foreground mb-6">
-                  Bei Webseite-Designs, Präsentation-Designs, Problemen mit
-                  Hard- und Software, Problemen mit Programmen wie Word,
-                  Spotify, Canva oder anderen technischen Angelegenheiten stehen
-                  wir für Sie zur Verfügung.
+                  {content.about.description.paragraph2}
                 </p>
 
                 <div className="border-t border-border pt-6 mt-6">
-                  <h4 className="font-semibold text-lg mb-4">Unser Team</h4>
+                  <h4 className="font-semibold text-lg mb-4">{content.about.team.title}</h4>
                   <div className="flex flex-wrap gap-3">
-                    {teamMembers.map((member, index) => (
+                    {content.about.team.members.map((member, index) => (
                       <div
                         key={index}
                         className="px-4 py-2 rounded-full bg-secondary text-secondary-foreground text-sm font-medium"
@@ -89,10 +75,10 @@ const About = () => {
             <div className="space-y-6">
               <Card className="border-border">
                 <CardContent className="pt-6">
-                  <h4 className="font-semibold text-lg mb-4">Unsere Schule</h4>
+                  <h4 className="font-semibold text-lg mb-4">{content.about.school.title}</h4>
                   <img
                     src="/hasu.jpg"
-                    alt="Gerda-Taro-Schule Hauptgebäude"
+                    alt={content.about.school.imageAlt}
                     className="w-full h-48 object-cover rounded-lg"
                   />
                 </CardContent>
@@ -101,11 +87,11 @@ const About = () => {
               <Card className="border-border">
                 <CardContent className="pt-6">
                   <h4 className="font-semibold text-lg mb-4">
-                    Unser Arbeitsplatz
+                    {content.about.workplace.title}
                   </h4>
                   <img
                     src="/kasten.jpeg"
-                    alt="Arbeitsbereich der Gerda Hilft Schülerfirma"
+                    alt={content.about.workplace.imageAlt}
                     className="w-full h-48 object-cover rounded-lg"
                   />
                 </CardContent>

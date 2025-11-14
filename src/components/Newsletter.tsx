@@ -1,10 +1,12 @@
+import { content } from "@/lib/content";
+
 const Newsletter = () => {
   return (
     <section className="py-20 px-4 lg:px-8 text-center">
       <div className="container mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Newsletter abonnieren</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">{content.newsletter.title}</h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-          Bleiben Sie auf dem Laufenden über unsere neuesten Services und Angebote
+          {content.newsletter.subtitle}
         </p>
         <div className="flex justify-center">
           <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>

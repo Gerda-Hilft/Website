@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Mail, Cloud } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import ThemeToggle from "@/components/ThemeToggle";
+import { content } from "@/lib/content";
 
 const Header = () => {
   const location = useLocation();
@@ -24,10 +25,10 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
             <img 
               src="/logo.png" 
-              alt="Gerda Hilft Logo" 
+              alt={content.header.logoAlt} 
               className="w-8 h-8 rounded-lg object-contain"
             />
-            <span className="font-semibold text-lg">Gerda Hilft</span>
+            <span className="font-semibold text-lg">{content.header.brandName}</span>
           </Link>
           
           <nav className="hidden md:flex items-center space-x-6">
@@ -35,25 +36,25 @@ const Header = () => {
               onClick={() => scrollToSection("services")} 
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              Leistungen
+              {content.header.nav.services}
             </button>
             <Link 
               to="/cloud-pricing"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              Cloud Preise
+              {content.header.nav.cloudPricing}
             </Link>
             <button 
               onClick={() => scrollToSection("about")} 
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              Über uns
+              {content.header.nav.about}
             </button>
             <button 
               onClick={() => scrollToSection("contact")} 
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              Kontakt
+              {content.header.nav.contact}
             </button>
           </nav>
 
@@ -72,7 +73,7 @@ const Header = () => {
               className="bg-primary hover:bg-accent transition-colors"
             >
               <Mail className="mr-2 h-4 w-4" />
-              Kontakt
+              {content.header.contactButton}
             </Button>
           </div>
         </div>

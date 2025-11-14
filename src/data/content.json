@@ -1,0 +1,294 @@
+{
+  "header": {
+    "logoAlt": "Gerda Hilft Logo",
+    "brandName": "Gerda Hilft",
+    "nav": {
+      "services": "Leistungen",
+      "cloudPricing": "Cloud Preise",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    },
+    "contactButton": "Kontakt"
+  },
+  "hero": {
+    "badge": "Schülerfirma IT-Support",
+    "title": "Gerda Hilft bei",
+    "titleHighlight": "IT-Problemen",
+    "description": "Professioneller IT-Support von Schülern für Schüler, Lehrkräfte und Eltern. Schnell, zuverlässig und kompetent.",
+    "primaryButton": "Jetzt Kontakt aufnehmen",
+    "secondaryButton": "Unsere Leistungen"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Unser umfassendes Angebot an professionellen Dienstleistungen",
+    "items": [
+      {
+        "title": "IT-Support",
+        "description": "Technische Probleme? Ob Word, GoodNotes, Windows oder Linux – wir helfen schnell und zuverlässig."
+      },
+      {
+        "title": "Cloud Speicher",
+        "description": "Günstiger Cloudspeicher für deine Projekte! Ob privat oder schulisch – mit unserer Cloud hast du schnellen Zugriff auf deine Daten."
+      },
+      {
+        "title": "Hardware Reparatur",
+        "description": "Haben Sie Probleme mit Ihren Geräten? Wir reparieren sie für Sie, vor allem PCs, aber auch andere Geräte auf Anfrage."
+      },
+      {
+        "title": "Kahoot-Erstellung",
+        "description": "Abwechslungsreicher Unterricht und effektives Lernen? Ein Kahoot mit der Klasse ist die perfekte Lösung – und wir erstellen es für Sie!"
+      },
+      {
+        "title": "Webseite-Erstellung",
+        "description": "Brauchen Sie eine maßgeschneiderte Webseite? Wir erstellen für Sie Ihre individuelle Webpräsenz."
+      },
+      {
+        "title": "Installation Betriebssystem",
+        "description": "Benötigen Sie ein bestimmtes Betriebssystem? Wir installieren Windows, Linux Mint, Ubuntu und viele weitere – schnell und zuverlässig."
+      }
+    ]
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Wir sind eine engagierte Schülerfirma der Gerda-Taro-Schule",
+    "stats": {
+      "founded": {
+        "label": "Gegründet",
+        "value": "6. Januar 2025"
+      },
+      "team": {
+        "label": "Team",
+        "value": "6 engagierte Mitglieder"
+      },
+      "mission": {
+        "label": "Mission",
+        "value": "IT-Support für alle"
+      }
+    },
+    "description": {
+      "paragraph1": "Wir als Schülerfirma sind seit dem 6. Januar 2025 aktiv und bestehen im Moment aus 6 Mitgliedern. Wir haben es uns zur Aufgabe gemacht Lehrern, Schülern und Eltern bei allen möglichen technischen Problemen zu helfen.",
+      "paragraph2": "Bei Webseite-Designs, Präsentation-Designs, Problemen mit Hard- und Software, Problemen mit Programmen wie Word, Spotify, Canva oder anderen technischen Angelegenheiten stehen wir für Sie zur Verfügung."
+    },
+    "team": {
+      "title": "Unser Team",
+      "members": [
+        "Rafael",
+        "Johann",
+        "Julius",
+        "Jonathan",
+        "Niclas",
+        "Adrian"
+      ]
+    },
+    "school": {
+      "title": "Unsere Schule",
+      "imageAlt": "Gerda-Taro-Schule Hauptgebäude"
+    },
+    "workplace": {
+      "title": "Unser Arbeitsplatz",
+      "imageAlt": "Arbeitsbereich der Gerda Hilft Schülerfirma"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Sie wollen Kontakt mit uns aufbauen oder einen Auftrag aufgeben?",
+    "email": {
+      "label": "E-Mail",
+      "address": "schuelerfirma-it-support@gts.lernsax.de"
+    },
+    "address": {
+      "label": "Adresse",
+      "lines": [
+        "Telemannstraße 9",
+        "04107 Leipzig",
+        "Glaskasten 1. OG Süd",
+        "neben der 113"
+      ]
+    },
+    "hours": {
+      "label": "Öffnungszeiten",
+      "withoutAppointment": {
+        "label": "Ohne Termin:",
+        "times": [
+          "9:35 - 9:55 Uhr",
+          "11:35 - 11:55 Uhr"
+        ]
+      },
+      "withAppointment": {
+        "label": "Mit Termin:",
+        "value": "Nachmittags nach Vereinbarung"
+      }
+    },
+    "emailButton": "E-Mail schreiben",
+    "note": "Wenn Sie kein Lehrer oder Schüler der Gerda-Taro-Schule sind, melden Sie sich bitte im Sekretariat an."
+  },
+  "newsletter": {
+    "title": "Newsletter abonnieren",
+    "subtitle": "Bleiben Sie auf dem Laufenden über unsere neuesten Services und Angebote"
+  },
+  "footer": {
+    "brandName": "Gerda Hilft",
+    "copyright": "© 2025 Schülerfirma IT-Support \"Gerda hilft\"",
+    "school": "Gerda-Taro-Schule, Leipzig",
+    "links": {
+      "impressum": "Impressum",
+      "datenschutz": "Datenschutz"
+    }
+  },
+  "impressum": {
+    "title": "Impressum",
+    "company": {
+      "name": "Schülerfirma IT-Support",
+      "subtitle": "(Schülerprojekt der Gerda-Taro-Schule)",
+      "address": {
+        "lines": [
+          "c/o Gerda-Taro-Schule",
+          "Telemannstraße 9",
+          "04107 Leipzig"
+        ]
+      },
+      "email": "schuelerfirma-it-support@gts.lernsax.de"
+    },
+    "management": {
+      "title": "Geschäftsführung",
+      "content": "Geschäftsführer: Rafael Beck\nStellvertreter: Anton Obermair\nPädagogische Begleitung: Herr Tempel"
+    },
+    "authors": {
+      "title": "Weitere Autoren",
+      "description": "Die folgenden Personen sind für ihre Inhalte verantwortlich:",
+      "list": [
+        "Ole Reichenbach",
+        "Johann Scheibitz",
+        "Adrian Arestau",
+        "Niclas Forner"
+      ]
+    },
+    "links": {
+      "title": "Haftung für Links",
+      "content": "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
+    }
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "intro": "Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Nachfolgend informieren wir Sie über die Art, den Umfang und den Zweck der Erhebung und Verwendung personenbezogener Daten auf unserer Website.",
+    "responsible": {
+      "title": "Verantwortlich für die Datenverarbeitung",
+      "company": {
+        "name": "Schülerfirma IT-Support (Projekt der Gerda-Taro-Schule)",
+        "address": {
+          "lines": [
+            "c/o Gerda-Taro-Schule",
+            "Telemannstraße 9",
+            "04107 Leipzig"
+          ]
+        },
+        "email": "schuelerfirma-it-support@gts.lernsax.de",
+        "management": "Projektbegleiter: Herr Tempel\nGeschäftsführer: Rafael Beck, Stellvertreter: Anton Obermair"
+      }
+    },
+    "accessData": {
+      "title": "1. Zugriffsdaten",
+      "description": "Beim Besuch unserer Website werden durch den Hosting-Anbieter automatisch Informationen wie:",
+      "list": [
+        "Besuchte Seite",
+        "Zeitpunkt des Zugriffs",
+        "Menge der gesendeten Daten",
+        "Browsertyp und Version",
+        "Betriebssystem",
+        "Referrer-URL"
+      ],
+      "conclusion": "Diese Daten dienen ausschließlich der statistischen Auswertung und zur Verbesserung unserer Website und lassen keinen Rückschluss auf Ihre Person zu."
+    },
+    "contact": {
+      "title": "2. Kontaktaufnahme",
+      "content": "Wenn Sie uns per E-Mail kontaktieren, speichern wir Ihre Angaben zur Bearbeitung Ihrer Anfrage. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter."
+    },
+    "personalData": {
+      "title": "3. Umgang mit personenbezogenen Daten",
+      "content": "Personenbezogene Daten (z. B. Name, E-Mail-Adresse) werden nur erhoben, genutzt, wenn Sie mit uns über die E-Mail Adresse Kontakt aufnehmen. Die Daten werden nur in besonderen Fällen und nur mit Ihrer Zustimmung weitergegeben. In diesem Fall kontaktieren wir Sie per E-Mail."
+    },
+    "rights": {
+      "title": "4. Rechte der betroffenen Personen",
+      "description": "Sie haben das Recht auf:",
+      "list": [
+        "Auskunft über Ihre gespeicherten Daten",
+        "Berichtigung falscher Daten",
+        "Löschung Ihrer Daten, sofern keine gesetzlichen Aufbewahrungspflichten bestehen"
+      ]
+    },
+    "externalLinks": {
+      "title": "5. Einsatz von externen Links",
+      "content": "Unsere Website kann Links zu externen Seiten enthalten. Für die Inhalte dieser Seiten sind ausschließlich deren Betreiber verantwortlich."
+    },
+    "footer": {
+      "date": "Stand dieser Datenschutzerklärung: Juli 2025",
+      "update": "Diese Erklärung wird bei Bedarf aktualisiert, um den rechtlichen Anforderungen zu entsprechen."
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "link": "Return to Home"
+  },
+  "cloudPricing": {
+    "hero": {
+      "title": "Cloud Speicher",
+      "description1": "Du suchst eine günstige Cloud-Lösung – für private Daten oder zum automatischen Speichern deiner Schulunterlagen?",
+      "description2": "Dann sind Sie bei uns genau richtig!",
+      "description3": "Wir bieten Ihnen sicheren Cloudspeicher zu fairen Preisen – einfach, flexibel und zuverlässig."
+    },
+    "pricing": {
+      "title": "Unsere Pläne",
+      "subtitle": "Wählen Sie den passenden Speicherplan für Ihre Bedürfnisse",
+      "storageLabel": "Speicherplatz",
+      "monthlyLabel": "im Monatsplan",
+      "yearlyLabel": "im Jahresplan",
+      "interestText": "Interesse? Melden Sie sich bei uns!",
+      "popularBadge": "Unsere Empfehlung",
+      "plans": [
+        {
+          "storage": "15 GB",
+          "monthlyPrice": "1 €",
+          "yearlyPrice": "10 €",
+          "popular": false
+        },
+        {
+          "storage": "50 GB",
+          "monthlyPrice": "2 €",
+          "yearlyPrice": "20 €",
+          "popular": true
+        },
+        {
+          "storage": "250 GB",
+          "monthlyPrice": "10 €",
+          "yearlyPrice": "100 €",
+          "popular": false
+        },
+        {
+          "storage": "1 TB",
+          "monthlyPrice": "20 €",
+          "yearlyPrice": "200 €",
+          "popular": false
+        }
+      ]
+    },
+    "features": {
+      "title": "Was Sie erhalten",
+      "list": [
+        "Sichere Datenübertragung",
+        "Automatische Synchronisation",
+        "Zugriff von überall",
+        "24/7 Verfügbarkeit",
+        "Einfache Bedienung",
+        "Deutsche Server"
+      ]
+    },
+    "cta": {
+      "title": "Persönlicher Plan",
+      "description": "Haben Sie Interesse oder wollen ein personalisierten Plan? Melden Sie sich über Kontakt und wir schalten Ihren Zugang frei.",
+      "contactButton": "Kontakt aufnehmen",
+      "learnMoreButton": "Mehr erfahren"
+    }
+  }
+}
+
