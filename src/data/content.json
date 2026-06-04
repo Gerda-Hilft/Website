@@ -24,29 +24,116 @@
     "items": [
       {
         "title": "IT-Support",
-        "description": "Technische Probleme? Ob Word, GoodNotes, Windows oder Linux – wir helfen schnell und zuverlässig."
+        "description": "Technische Probleme? Ob Word, GoodNotes, Windows oder Linux – wir helfen schnell und zuverlässig.",
+        "href": "/it-support"
       },
       {
         "title": "Cloud Speicher",
-        "description": "Günstiger Cloudspeicher für deine Projekte! Ob privat oder schulisch – mit unserer Cloud hast du schnellen Zugriff auf deine Daten."
+        "description": "Günstiger Cloudspeicher für deine Projekte! Ob privat oder schulisch – mit unserer Cloud hast du schnellen Zugriff auf deine Daten.",
+        "href": "/cloud-speicher"
       },
       {
         "title": "Hardware Reparatur",
-        "description": "Haben Sie Probleme mit Ihren Geräten? Wir reparieren sie für Sie, vor allem PCs, aber auch andere Geräte auf Anfrage."
+        "description": "Haben Sie Probleme mit Ihren Geräten? Wir reparieren sie für Sie, vor allem PCs, aber auch andere Geräte auf Anfrage.",
+        "href": "/hardware-reparatur"
       },
       {
         "title": "Kahoot-Erstellung",
-        "description": "Abwechslungsreicher Unterricht und effektives Lernen? Ein Kahoot mit der Klasse ist die perfekte Lösung – und wir erstellen es für Sie!"
+        "description": "Abwechslungsreicher Unterricht und effektives Lernen? Ein Kahoot mit der Klasse ist die perfekte Lösung – und wir erstellen es für Sie!",
+        "href": "/kahoot-erstellung"
       },
       {
-        "title": "Webseite-Erstellung",
-        "description": "Brauchen Sie eine maßgeschneiderte Webseite? Wir erstellen für Sie Ihre individuelle Webpräsenz."
+        "title": "Website-Erstellung",
+        "description": "Brauchen Sie eine maßgeschneiderte Webseite? Wir erstellen für Sie Ihre individuelle Webpräsenz.",
+        "href": "/website-erstellung"
       },
       {
         "title": "Installation Betriebssystem",
-        "description": "Benötigen Sie ein bestimmtes Betriebssystem? Wir installieren Windows, Linux Mint, Ubuntu und viele weitere – schnell und zuverlässig."
+        "description": "Benötigen Sie ein bestimmtes Betriebssystem? Wir installieren Windows, Linux Mint, Ubuntu und viele weitere – schnell und zuverlässig.",
+        "href": "/installation-betriebssystem"
       }
     ]
+  },
+  "servicePages": {
+    "it-support": {
+      "title": "IT-Support",
+      "paragraphs": [
+        "Probleme mit PC, Laptop, Tablet oder Handy?",
+        "Wir helfen Ihnen - kostenlos! Über eine kleine Spende freuen wir uns dennoch.",
+        "Kommen Sie einfach in der Frühstückspause (9:40–9:50 Uhr) oder Mittagspause (11:35–11:55 Uhr) vorbei – oder melden Sie sich per E-Mail bei uns."
+      ],
+      "cta": {
+        "label": "Zum Kontakt",
+        "href": "/#contact"
+      }
+    },
+    "cloud-speicher": {
+      "title": "Cloud Speicher",
+      "paragraphs": [
+        "Die Cloud-Speicher-Seite existiert bereits. Dort finden Sie unsere aktuellen Angebote und Preise.",
+        "Wenn Sie Interesse haben, schauen Sie direkt auf der Preisseite vorbei."
+      ],
+      "cta": {
+        "label": "Zu den Preisen",
+        "href": "/cloud-pricing"
+      }
+    },
+    "hardware-reparatur": {
+      "title": "Hardware Reparatur",
+      "paragraphs": [
+        "Haben Sie Probleme mit der Hardware Ihres Laptops oder PCs?",
+        "Funktionieren Tasten nicht oder wollen Sie die Batterie austauschen?",
+        "Wir kümmern uns darum - ob Bildschirmaustausch oder ein Austausch der Batterie.",
+        "Melden Sie sich einfach über Kontakt und wir beraten Sie."
+      ],
+      "cta": {
+        "label": "Zum Kontakt",
+        "href": "/#contact"
+      }
+    },
+    "kahoot-erstellung": {
+      "title": "Kahoot-Erstellung",
+      "paragraphs": [
+        "Gestalten Sie Ihren Unterricht abwechslungsreich - mit einem Quiz, passend zu Ihrem Unterricht!",
+        "Wir erstellen für Sie ein individuelles Kahoot-Quiz, passend zu Ihren Unterrichtsinhalten.",
+        "Melden Sie sich."
+      ],
+      "cta": {
+        "label": "Zum Kontakt",
+        "href": "/#contact"
+      }
+    },
+    "website-erstellung": {
+      "title": "Website-Erstellung",
+      "paragraphs": [
+        "Wir gestalten Ihre Online-Präsenz - individuell und professionell.",
+        "Egal ob persönlicher Blog oder Unternehmenswebsite: Wir setzen Ihre Ideen ins Web um.",
+        "Sie fragen sich, wie Ihre Seite aussehen könnte? Schauen Sie doch mal vorbei auf zulipzig.de!",
+        "Wir haben die komplette Webpräsenz des „Zulipzig Salon“ erstellt.",
+        "Sie haben noch keine Erfahrung mit Webseiten? Kein Problem - wir bringen Ihnen gerne die Grundlagen bei!",
+        "Melden Sie sich über unser Kontaktformular für einen WordPress-Kurs an.",
+        "Übrigens: Wir bieten auch andere Arten von Websites an. Schreiben Sie uns unverbindlich - wir erstellen Ihnen gerne ein individuelles Angebot."
+      ],
+      "cta": {
+        "label": "Zur Beispielseite",
+        "href": "https://zulipzig.de"
+      },
+      "secondaryCta": {
+        "label": "Zum Kontakt",
+        "href": "/#contact"
+      }
+    },
+    "installation-betriebssystem": {
+      "title": "Installation Betriebssystem",
+      "paragraphs": [
+        "Wir installieren Ihnen auf Ihren PC oder Laptop Ihr gewünschtes Betriebssystem wie Windows, Linux Mint oder Ubuntu.",
+        "Melden Sie sich einfach über Kontakt und wir installieren es für Sie."
+      ],
+      "cta": {
+        "label": "Zum Kontakt",
+        "href": "/#contact"
+      }
+    }
   },
   "about": {
     "title": "Über uns",
@@ -291,4 +378,3 @@
     }
   }
 }
-

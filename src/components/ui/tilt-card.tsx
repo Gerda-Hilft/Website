@@ -1,14 +1,16 @@
-import { useState, ReactNode } from 'react';
+import { useState } from 'react';
 import { LucideIcon } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface TiltCardProps {
   icon: LucideIcon;
   title: string;
   description: string;
+  href?: string;
   className?: string;
 }
 
-export default function TiltCard({ icon: Icon, title, description, className = "" }: TiltCardProps) {
+export default function TiltCard({ icon: Icon, title, description, href, className = "" }: TiltCardProps) {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -30,9 +32,11 @@ export default function TiltCard({ icon: Icon, title, description, className = "
     setRotation({ x: 0, y: 0 });
   };
 
-  return (
+  const isExternal = typeof href === "string" && /^https?:\/\//.test(href);
+
+  const card = (
     <div
-      className={`relative cursor-pointer ${className}`}
+      className={`relative ${href ? "cursor-pointer" : ""} ${className}`}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       style={{
@@ -57,5 +61,21 @@ export default function TiltCard({ icon: Icon, title, description, className = "
         </div>
       </div>
     </div>
+  );
+
+  return (
+    href ? (
+      isExternal ? (
+        <a href={href} target="_blank" rel="noreferrer" className="block">
+          {card}
+        </a>
+      ) : (
+        <Link to={href} className="block">
+          {card}
+        </Link>
+      )
+    ) : (
+      card
+    )
   );
 }

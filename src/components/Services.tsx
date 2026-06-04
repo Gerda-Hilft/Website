@@ -14,7 +14,7 @@ const iconMap = {
   "Cloud Speicher": Cloud,
   "Hardware Reparatur": Monitor,
   "Kahoot-Erstellung": MessageSquare,
-  "Webseite-Erstellung": Globe,
+  "Website-Erstellung": Globe,
   "Installation Betriebssystem": HardDrive
 };
 
@@ -41,6 +41,7 @@ const Services = () => {
               icon={service.icon}
               title={service.title}
               description={service.description}
+              href={service.href}
               className="h-80"
             />
           ))}
